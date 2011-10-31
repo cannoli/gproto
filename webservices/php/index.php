@@ -69,7 +69,7 @@ class RedeemAPI {
 	// Constructor - open DB connection
 	function __construct()
 	{
-		$this->db = new mysqli('localhost', 'shunobi', 'veggie123', 'promos');
+		$this->db = new mysqli('localhost', 'poger1', 'veggie177', 'geoloproto');
 		$this->db->autocommit(FALSE);
 	}
 
